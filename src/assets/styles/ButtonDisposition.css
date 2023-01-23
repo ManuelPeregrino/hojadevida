@@ -1,0 +1,9 @@
+.VerticalButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.HorizontalButtons{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,10 @@
+.IconButton{
+    background-color: aquamarine;
+    height: 10vh;
+    cursor: pointer;
+}
+
+.IconButton img{
+    height: 100%;
+    width: 100%;
+}

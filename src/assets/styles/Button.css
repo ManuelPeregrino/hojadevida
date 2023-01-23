@@ -1,0 +1,19 @@
+.uselessButton{
+    font-family: "Roboto Light", serif;
+    background-color: aquamarine;
+    width: 80%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.uselessButton:hover{
+    animation-name: buttonHover;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes buttonHover {
+
+    100%   {background-color:white;}
+
+}

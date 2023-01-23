@@ -1,0 +1,29 @@
+.MainHeader{
+    height: 10vh;
+    position: relative;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    animation-name: introduction;
+    animation-duration: 4s;
+
+}
+
+@keyframes introduction {
+    0%   {background-color:white; left:100vw;}
+    75%  {left:0;}
+}
+
+.MainHeader Text{
+    font-size: 2em;
+}
+
+.MainHeader Button{
+    border-radius: 20px;
+    width: 12%;
+    height: 70%;
+    font-size: 2em;
+
+}

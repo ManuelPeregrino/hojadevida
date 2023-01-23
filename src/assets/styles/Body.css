@@ -1,0 +1,28 @@
+.DisplayedInfo{
+    height: 80vh;
+    display: flex;
+
+}
+
+.DisplayedInfo main{
+    background-color: aqua;
+    height: 100%;
+    width: 90vw;
+    position: relative;
+    animation-name: BodyIn;
+    animation-duration: 4s;
+    padding: 1rem;
+    border: 2px black solid;
+
+}
+
+@keyframes BodyIn {
+    0%   {background-color:white; left:100vw;}
+    75%  {left:0;}
+}
+
+.ContactBox{
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
